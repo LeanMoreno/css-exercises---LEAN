@@ -1,0 +1,17 @@
+.first-button{
+    background-color: #000000;
+    color: rgb(250, 250, 250);
+}
+
+.second-button{
+    background-color: rgb(252, 246, 58);
+}
+
+/*Antes que crear una clase extra para los estilos en comun,
+es mejor agruparlos y poner aquellos estilos que comparten*/
+.first-button,.second-button{ 
+    font-size: 28px;
+    font-family: Helvetica,"Times New Roman",sans-serif;
+}
+
+/*Hice el ejercicio, me salio bien =)*/
