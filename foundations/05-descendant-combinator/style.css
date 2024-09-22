@@ -6,3 +6,11 @@ div .text{
 }
 
 /*Hice el ejercicio, me salio bien =)*/
+
+/* Abajo hay otros ejemplos de hacer combinaciones descendientes (anidadas)
+
+div p
+.container .text
+.container p
+
+*/
