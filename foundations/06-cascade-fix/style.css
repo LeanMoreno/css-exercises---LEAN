@@ -8,16 +8,18 @@ body {
   font-weight: 800;
 }
 
+.para {
+  font-size: 22px;
+}
+
+/*Movi el "small-para" debajo del "para" por error de "orden de reglas"*/
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+/*Agregue la clase "button" porque habia un problema de especifidad*/
+.confirm.button {
   background: green;
   color: white;
   font-weight: bold;
@@ -28,8 +30,9 @@ body {
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
-
-.child {
+/*Agregue la clase "text" porque habia un problema de especifidad e hice
+un combinador descendiente*/
+.text .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
